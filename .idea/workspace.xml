@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26a857d0-0637-4589-b1a6-eb8ce759814b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/album.schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module/Album/config/module.routes.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module/Album/view/album/index/add.phtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module/Album/view/album/index/delete.phtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module/Application/config/module.routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Hello-World.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Hello-World.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vagrantfile" beforeDir="false" afterPath="$PROJECT_DIR$/Vagrantfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/modules.config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/modules.config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/zftutorial.db" beforeDir="false" afterPath="$PROJECT_DIR$/data/zftutorial.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/Album/config/module.config.php" beforeDir="false" afterPath="$PROJECT_DIR$/module/Album/config/module.config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/Album/src/Controller/SkeletonController.php" beforeDir="false" afterPath="$PROJECT_DIR$/module/Album/src/Controller/IndexController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/Album/src/Module.php" beforeDir="false" afterPath="$PROJECT_DIR$/module/Album/src/Module.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/Album/view/zend-skeleton-module/skeleton/index.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/module/Album/view/album/index/index.phtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/Application/config/module.config.php" beforeDir="false" afterPath="$PROJECT_DIR$/module/Application/config/module.config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/Blog/config/module.config.php" beforeDir="false" afterPath="$PROJECT_DIR$/module/Blog/config/module.config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/Blog/src/Model/PostRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/module/Blog/src/Model/PostRepository.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -82,32 +60,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module/Album/src/Controller/IndexController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="122" column="10" selection-start-line="122" selection-start-column="10" selection-end-line="122" selection-end-column="10" />
-              <folding>
-                <element signature="e#304#326#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module/Album/view/album/index/delete.phtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/.htaccess">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+            <state>
+              <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -318,13 +275,6 @@
               <item name="Hello-World" type="462c0819:PsiDirectoryNode" />
               <item name="module" type="462c0819:PsiDirectoryNode" />
               <item name="Album" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hello-World" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hello-World" type="462c0819:PsiDirectoryNode" />
-              <item name="module" type="462c0819:PsiDirectoryNode" />
-              <item name="Album" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -334,46 +284,6 @@
               <item name="Album" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hello-World" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hello-World" type="462c0819:PsiDirectoryNode" />
-              <item name="module" type="462c0819:PsiDirectoryNode" />
-              <item name="Album" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Factory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hello-World" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hello-World" type="462c0819:PsiDirectoryNode" />
-              <item name="module" type="462c0819:PsiDirectoryNode" />
-              <item name="Album" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hello-World" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hello-World" type="462c0819:PsiDirectoryNode" />
-              <item name="module" type="462c0819:PsiDirectoryNode" />
-              <item name="Album" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hello-World" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hello-World" type="462c0819:PsiDirectoryNode" />
-              <item name="module" type="462c0819:PsiDirectoryNode" />
-              <item name="Album" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="album" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hello-World" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hello-World" type="462c0819:PsiDirectoryNode" />
-              <item name="module" type="462c0819:PsiDirectoryNode" />
-              <item name="Album" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="album" type="462c0819:PsiDirectoryNode" />
-              <item name="index" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Hello-World" type="b2602c69:ProjectViewProjectNode" />
@@ -432,7 +342,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14366000" />
+    <option name="totallyTimeSpent" value="14696000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="834" extended-state="6" />
@@ -811,8 +721,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        <state>
+          <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="16" />
         </state>
       </provider>
     </entry>
