@@ -40,12 +40,12 @@ fi
 
 echo "** [ZF] Run the following command to install dependencies, if you have not already:"
 echo "    vagrant ssh -c 'composer install'"
-echo "** [ZF] Visit http://localhost:8080 in your browser for to view the application **"
+echo "** [ZF] Visit http://localhost:8118 in your browser for to view the application **"
 SCRIPT
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.box = 'bento/ubuntu-16.04'
-  config.vm.network "forwarded_port", guest: 80, host: 8080
+  config.vm.network "forwarded_port", guest: 80, host: 8118
   config.vm.synced_folder '.', '/var/www'
   config.vm.provision 'shell', inline: @script
 

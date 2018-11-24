@@ -8,14 +8,13 @@
 
 namespace Blog\Model;
 
-use InvalidArgumentException;
+use Zend\Db\Sql\Sql;
 use RuntimeException;
-// Replace the import of the Reflection hydrator with this:
+use InvalidArgumentException;
 use Zend\Hydrator\HydratorInterface;
 use Zend\Db\Adapter\AdapterInterface;
-use Zend\Db\Adapter\Driver\ResultInterface;
 use Zend\Db\ResultSet\HydratingResultSet;
-use Zend\Db\Sql\Sql;
+use Zend\Db\Adapter\Driver\ResultInterface;
 
 class PostRepository implements PostRepositoryInterface
 {

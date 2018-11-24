@@ -13,28 +13,7 @@ use Zend\ServiceManager\Factory\InvokableFactory;
 
 return [
     'router' => [
-        'routes' => [
-            'home' => [
-                'type' => Literal::class,
-                'options' => [
-                    'route'    => '/',
-                    'defaults' => [
-                        'controller' => Controller\IndexController::class,
-                        'action'     => 'index',
-                    ],
-                ],
-            ],
-            'application' => [
-                'type'    => Segment::class,
-                'options' => [
-                    'route'    => '/application[/:action]',
-                    'defaults' => [
-                        'controller' => Controller\IndexController::class,
-                        'action'     => 'index',
-                    ],
-                ],
-            ],
-        ],
+        'routes' => require __DIR__ . '/module.routes.php',
     ],
     'controllers' => [
         'factories' => [
@@ -54,7 +33,7 @@ return [
             'error/index'             => __DIR__ . '/../view/error/index.phtml',
         ],
         'template_path_stack' => [
-            __DIR__ . '/../view',
+            __NAMESPACE__ => __DIR__ . '/../view',
         ],
     ],
 ];

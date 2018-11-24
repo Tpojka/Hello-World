@@ -5,6 +5,7 @@
       <sourceFolder url="file://$MODULE_DIR$/module/Application/src" isTestSource="false" packagePrefix="Application\" />
       <sourceFolder url="file://$MODULE_DIR$/module/Application/test" isTestSource="true" packagePrefix="ApplicationTest\" />
       <sourceFolder url="file://$MODULE_DIR$/module/Blog/src" isTestSource="false" packagePrefix="Blog\" />
+      <sourceFolder url="file://$MODULE_DIR$/module/Album/src" isTestSource="false" packagePrefix="Album\" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/container-interop/container-interop" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/psr/container" />
@@ -13,11 +14,16 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-db" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-escaper" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-eventmanager" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-filter" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-form" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-http" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-hydrator" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-i18n" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-inputfilter" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-loader" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-modulemanager" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-mvc" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-mvc-i18n" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-router" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-servicemanager" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/zendframework/zend-stdlib" />
