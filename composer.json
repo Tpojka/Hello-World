@@ -23,7 +23,8 @@
         "zendframework/zend-inputfilter": "^2.8",
         "zendframework/zend-mvc-i18n": "^1.1",
         "zendframework/zend-test": "^3.2",
-        "zendframework/zend-navigation": "^2.9"
+        "zendframework/zend-navigation": "^2.9",
+        "zendframework/zend-paginator": "^2.8"
     },
     "autoload": {
         "psr-4": {

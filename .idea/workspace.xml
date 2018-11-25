@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26a857d0-0637-4589-b1a6-eb8ce759814b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/module/Application/view/layout/layout.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/module/Application/view/layout/layout.phtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/autoload/paginator.global.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/album-fixtures.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module/Application/view/partial/paginator.phtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Hello-World.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Hello-World.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/modules.config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/modules.config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/zftutorial.db" beforeDir="false" afterPath="$PROJECT_DIR$/data/zftutorial.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module/Album/src/Controller/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/module/Album/src/Controller/IndexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module/Album/src/Model/AlbumTable.php" beforeDir="false" afterPath="$PROJECT_DIR$/module/Album/src/Model/AlbumTable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module/Album/view/album/index/index.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/module/Album/view/album/index/index.phtml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,24 +75,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/.htaccess">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="16" selection-start-column="16" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module/Album/config/module.config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="27" column="63" selection-start-line="27" selection-start-column="63" selection-end-line="27" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module/Album/config/module.navigation.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="421">
@@ -93,16 +87,86 @@
         <entry file="file://$PROJECT_DIR$/config/autoload/navigation.global.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/Application/view/layout/layout.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="57" column="100" selection-start-line="57" selection-start-column="100" selection-end-line="57" selection-end-column="100" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/album-fixtures.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="383">
+              <caret line="152" column="2" selection-start-line="152" selection-start-column="2" selection-end-line="152" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/autoload/paginator.global.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
               <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/module/Application/view/layout/layout.phtml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/Album/src/Model/AlbumTable.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="39" column="47" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
+            <state relative-caret-position="-974">
+              <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/Album/src/Controller/IndexController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="321">
+              <caret line="41" column="58" selection-start-line="41" selection-start-column="58" selection-end-line="41" selection-end-column="58" />
+              <folding>
+                <element signature="e#304#326#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/module/Album/view/album/index/index.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="421">
+              <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
+              <folding>
+                <element signature="e#329#335#1#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/Application/view/partial/paginator.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="50" column="14" selection-start-line="50" selection-start-column="14" selection-end-line="50" selection-end-column="14" />
+              <folding>
+                <element signature="e#382#386#0#HTML" expanded="true" />
+                <element signature="e#386#390#0#HTML" expanded="true" />
+                <element signature="e#560#564#0#HTML" expanded="true" />
+                <element signature="e#564#568#0#HTML" expanded="true" />
+                <element signature="e#1472#1476#0#HTML" expanded="true" />
+                <element signature="e#1476#1480#0#HTML" expanded="true" />
+                <element signature="e#1650#1654#0#HTML" expanded="true" />
+                <element signature="e#1654#1658#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -122,6 +186,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="PHTML file" />
+        <option value="SQL File" />
+        <option value="PHTML File" />
       </list>
     </option>
   </component>
@@ -150,14 +216,11 @@
         <option value="$PROJECT_DIR$/module/Album/src/Factory/AlbumRepositoryFactory.php" />
         <option value="$PROJECT_DIR$/module/Blog/src/Model/PostRepository.php" />
         <option value="$PROJECT_DIR$/module/Album/src/Model/AlbumRepository.php" />
-        <option value="$PROJECT_DIR$/module/Album/src/Model/AlbumTable.php" />
         <option value="$PROJECT_DIR$/module/Album/src/Module.php" />
-        <option value="$PROJECT_DIR$/module/Album/view/album/index/index.phtml" />
         <option value="$PROJECT_DIR$/module/Album/src/Form/AlbumForm.php" />
         <option value="$PROJECT_DIR$/module/Album/view/album/index/add.phtml" />
         <option value="$PROJECT_DIR$/module/Album/src/Model/Album.php" />
         <option value="$PROJECT_DIR$/module/Album/view/album/index/edit.phtml" />
-        <option value="$PROJECT_DIR$/module/Album/src/Controller/IndexController.php" />
         <option value="$PROJECT_DIR$/module/Album/view/album/index/delete.phtml" />
         <option value="$PROJECT_DIR$/module/Album/tests/Album/SampleTest.php" />
         <option value="$PROJECT_DIR$/module/Album/tests/Album/Framework/TestCase.php" />
@@ -173,6 +236,12 @@
         <option value="$PROJECT_DIR$/config/autoload/navigation.global.php" />
         <option value="$PROJECT_DIR$/module/Application/view/partial/breadcrumb.phtml" />
         <option value="$PROJECT_DIR$/module/Application/view/layout/layout.phtml" />
+        <option value="$PROJECT_DIR$/data/album-fixtures.sql" />
+        <option value="$PROJECT_DIR$/config/autoload/paginator.global.php" />
+        <option value="$PROJECT_DIR$/module/Album/src/Model/AlbumTable.php" />
+        <option value="$PROJECT_DIR$/module/Album/src/Controller/IndexController.php" />
+        <option value="$PROJECT_DIR$/module/Application/view/partial/paginator.phtml" />
+        <option value="$PROJECT_DIR$/module/Album/view/album/index/index.phtml" />
       </list>
     </option>
   </component>
@@ -238,6 +307,7 @@
       <path value="$PROJECT_DIR$/vendor/zendframework/zend-dom" />
       <path value="$PROJECT_DIR$/vendor/zendframework/zend-test" />
       <path value="$PROJECT_DIR$/vendor/zendframework/zend-navigation" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-paginator" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -275,7 +345,47 @@
               <item name="Hello-World" type="462c0819:PsiDirectoryNode" />
               <item name="module" type="462c0819:PsiDirectoryNode" />
               <item name="Album" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hello-World" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hello-World" type="462c0819:PsiDirectoryNode" />
+              <item name="module" type="462c0819:PsiDirectoryNode" />
+              <item name="Album" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hello-World" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hello-World" type="462c0819:PsiDirectoryNode" />
+              <item name="module" type="462c0819:PsiDirectoryNode" />
+              <item name="Album" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hello-World" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hello-World" type="462c0819:PsiDirectoryNode" />
+              <item name="module" type="462c0819:PsiDirectoryNode" />
+              <item name="Album" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hello-World" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hello-World" type="462c0819:PsiDirectoryNode" />
+              <item name="module" type="462c0819:PsiDirectoryNode" />
+              <item name="Album" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="album" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hello-World" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hello-World" type="462c0819:PsiDirectoryNode" />
+              <item name="module" type="462c0819:PsiDirectoryNode" />
+              <item name="Album" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="album" type="462c0819:PsiDirectoryNode" />
+              <item name="index" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Hello-World" type="b2602c69:ProjectViewProjectNode" />
@@ -289,6 +399,14 @@
               <item name="module" type="462c0819:PsiDirectoryNode" />
               <item name="Application" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hello-World" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hello-World" type="462c0819:PsiDirectoryNode" />
+              <item name="module" type="462c0819:PsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="partial" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Hello-World" type="b2602c69:ProjectViewProjectNode" />
@@ -349,13 +467,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21832000" />
+    <option name="totallyTimeSpent" value="22633000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="834" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49799198" visible="true" weight="0.17596567" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49799198" visible="true" weight="0.17596567" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.22246066" />
       <window_info id="Favorites" order="2" sideWeight="0.502008" side_tool="true" weight="0.17596567" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -368,8 +486,8 @@
       <window_info anchor="bottom" id="Docker" order="7" weight="0.32884097" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32884097" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49928468" visible="true" weight="0.32884097" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5007153" side_tool="true" visible="true" weight="0.32884097" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49928468" visible="true" weight="0.32884097" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5007153" side_tool="true" weight="0.32884097" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -425,27 +543,6 @@
     </ignored-roots>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/autoload/development.local.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/autoload/local.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/autoload/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/zendframework/zend-db/src/ResultSet/HydratingResultSet.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -554,16 +651,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/Album/src/Model/AlbumTable.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="70" column="1" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
-          <folding>
-            <element signature="e#114#135#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/module/Album/src/Model/AlbumRepository.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -592,16 +679,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
           <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Album/src/Controller/IndexController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="122" column="10" selection-start-line="122" selection-start-column="10" selection-end-line="122" selection-end-column="10" />
-          <folding>
-            <element signature="e#304#326#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -643,16 +720,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="421">
           <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Album/view/album/index/index.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
-          <folding>
-            <element signature="e#326#332#1#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -772,7 +839,7 @@
     <entry file="file://$PROJECT_DIR$/config/autoload/navigation.global.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
@@ -783,10 +850,68 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data/album-fixtures.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="152" column="2" selection-start-line="152" selection-start-column="2" selection-end-line="152" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Album/src/Model/AlbumTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-974">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Album/src/Controller/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="41" column="58" selection-start-line="41" selection-start-column="58" selection-end-line="41" selection-end-column="58" />
+          <folding>
+            <element signature="e#304#326#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Application/view/partial/paginator.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="50" column="14" selection-start-line="50" selection-start-column="14" selection-end-line="50" selection-end-column="14" />
+          <folding>
+            <element signature="e#382#386#0#HTML" expanded="true" />
+            <element signature="e#386#390#0#HTML" expanded="true" />
+            <element signature="e#560#564#0#HTML" expanded="true" />
+            <element signature="e#564#568#0#HTML" expanded="true" />
+            <element signature="e#1472#1476#0#HTML" expanded="true" />
+            <element signature="e#1476#1480#0#HTML" expanded="true" />
+            <element signature="e#1650#1654#0#HTML" expanded="true" />
+            <element signature="e#1654#1658#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/autoload/paginator.global.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/module/Application/view/layout/layout.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="39" column="47" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
+        <state relative-caret-position="330">
+          <caret line="57" column="100" selection-start-line="57" selection-start-column="100" selection-end-line="57" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Album/view/album/index/index.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
+          <folding>
+            <element signature="e#329#335#1#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
