@@ -1,27 +1,22 @@
 <?php
-
 namespace Blog;
 
+use Zend\ServiceManager\Factory\InvokableFactory;
+
 return [
-    'service_manager' => [
-        'aliases' => [
-            Model\PostRepositoryInterface::class => Model\PostRepository::class,
-        ],
-        'factories' => [
-            Model\PostRepository::class => Factory\PostRepositoryFactory::class,
-        ],
-    ],
-    'router' => [
-        'routes' => require __DIR__ . '/module.routes.php',
-    ],
     'controllers' => [
         'factories' => [
-            Controller\IndexController::class => Factory\IndexControllerFactory::class,
+            Controller\ListController::class => InvokableFactory::class,
         ],
+    ],
+    // This lines opens the configuration for the RouteManager
+    'router' => [
+        // Open configuration for all possible routes
+        'routes' => require __DIR__ . '/module.routes.php',
     ],
     'view_manager' => [
         'template_path_stack' => [
-            __NAMESPACE__ => __DIR__ . '/../view',
+            __DIR__ . '/../view',
         ],
     ],
 ];

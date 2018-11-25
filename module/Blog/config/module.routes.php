@@ -2,37 +2,28 @@
 /**
  * Created by PhpStorm.
  * User: tpojka
- * Date: 2018-11-23
- * Time: 13:36
+ * Date: 2018-11-25
+ * Time: 16:01
  */
 
 namespace Blog;
 
-use Blog\Controller;
+use Zend\Router\Http\Literal;
 
 return [
+    // Define a new route called "blog"
     'blog' => [
-        'type'    => 'Literal',
+        // Define a "literal" route type:
+        'type' => Literal::class,
+        // Configure the route itself
         'options' => [
-            // Change this to something specific to your module
-            'route'    => '/blog',
+            // Listen to "/blog" as uri:
+            'route' => '/blog',
+            // Define default controller and action to be called when
+            // this route is matched
             'defaults' => [
-                'controller'    => Controller\IndexController::class,
-                'action'        => 'index',
-            ],
-        ],
-    ],
-    'post' => [
-        'type' => \Zend\Router\Http\Segment::class,
-        'options' => [
-            'route'    => '/post[/:id]',
-            'defaults' => [
-                'controller' => Controller\IndexController::class,
-                'action'     => 'post',
-                'id' => 1,
-            ],
-            'constraints' => [
-                'id' => '\d+',
+                'controller' => Controller\ListController::class,
+                'action'     => 'index',
             ],
         ],
     ],
