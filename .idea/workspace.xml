@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26a857d0-0637-4589-b1a6-eb8ce759814b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/module/Blog/view/blog/list/index.phtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/Blog/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/Blog/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/Blog/config/module.config.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/Blog/src/Controller/IndexController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/Blog/src/Factory/IndexControllerFactory.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/Blog/src/Factory/PostRepositoryFactory.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/Blog/src/Model/Post.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/Blog/src/Model/PostCommandInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/Blog/src/Model/PostRepository.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/Blog/src/Model/PostRepositoryInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/Blog/src/Module.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/Blog/tests/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/Blog/tests/TestConfiguration.php.dist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/Blog/tests/ZendSkeletonModule/Framework/TestCase.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/Blog/tests/ZendSkeletonModule/SampleTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/Blog/tests/bootstrap.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/Blog/tests/phpunit.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/Blog/view/blog/index/index.phtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/Blog/view/blog/index/post.phtml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,11 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module/Blog/config/module.config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="90">
+              <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -119,7 +98,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/module/Blog/view/blog/list/index.phtml">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -402,13 +381,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23516000" />
+    <option name="totallyTimeSpent" value="23937000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="834" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49799198" visible="true" weight="0.17596567" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49799198" visible="true" weight="0.17596567" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.22246066" />
       <window_info id="Favorites" order="2" sideWeight="0.502008" side_tool="true" weight="0.17596567" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -422,7 +400,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32884097" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49928468" visible="true" weight="0.32884097" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5007153" side_tool="true" weight="0.32884097" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="11" sideWeight="0.5007153" side_tool="true" visible="true" weight="0.32884097" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -475,6 +453,7 @@
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$/module/Album" />
+      <path value="$PROJECT_DIR$/module/Blog" />
     </ignored-roots>
   </component>
   <component name="editorHistoryManager">
@@ -826,10 +805,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/Blog/view/blog/list/index.phtml">
+    <entry file="file://$PROJECT_DIR$/module/Blog/config/module.routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="43" selection-start-column="43" selection-end-column="43" />
+        <state relative-caret-position="75">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Blog/config/module.config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -840,17 +826,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/Blog/config/module.routes.php">
+    <entry file="file://$PROJECT_DIR$/module/Blog/view/blog/list/index.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/Blog/config/module.config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state>
+          <caret column="43" selection-start-column="43" selection-end-column="43" />
         </state>
       </provider>
     </entry>
