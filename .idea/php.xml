@@ -57,6 +57,7 @@
       <path value="$PROJECT_DIR$/vendor/zendframework/zend-console" />
       <path value="$PROJECT_DIR$/vendor/zendframework/zend-dom" />
       <path value="$PROJECT_DIR$/vendor/zendframework/zend-test" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-navigation" />
     </include_path>
   </component>
 </project>

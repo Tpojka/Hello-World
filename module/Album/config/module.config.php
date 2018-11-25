@@ -25,4 +25,5 @@ return [
             __NAMESPACE__ => __DIR__ . '/../view',
         ],
     ],
+    'navigation' => require __DIR__ . '/module.navigation.php',
 ];
